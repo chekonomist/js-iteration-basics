@@ -21,14 +21,14 @@ var fullName = []
 
 for (var i = 0; i < name.length; i++) {
     if( name[i].length <= 6) {
-      return fullName.push(name+" Sampson")
+      fullName.push(name+" Sampson")
     }
-      return fullName.push(name+" Simpson")
+    else {
+      fullName.push(name+" Simpson")
   }
     return fullName
 }
 
-var example1 = simpOrSamp("Homer")
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
