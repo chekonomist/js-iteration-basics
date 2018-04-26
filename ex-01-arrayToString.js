@@ -8,20 +8,27 @@
  *  Example:
  *    var ex1 = arrayToString(['my','name','is','lina'])
  *    console.log(ex1)
- *        //-> 'mynameislina' 
+ *        //-> 'mynameislina'
  *
  * You must use a for-loop to solve this problem.
  **/
 
 
 function arrayToString(arrayInput){
-  /* Your code below. Look at the console.asserts to se*/
+  var concatenatedArr = []
+
+  for (var i = 0; i < arrayInput.length; i++) {
+    concatenatedArr.push(arrayInput[i])
+  }
+
+  return concatenatedArr
 }
 
 
 
 
-
+var example1 = arrayToString("Hello", "how", "are","you")
+console.log(example1)
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~
