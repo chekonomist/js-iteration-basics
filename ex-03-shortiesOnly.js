@@ -8,7 +8,19 @@
  *
 */
 
+function shortiesOnly(string) {
+var shortArray = []
 
+  for (var i = 0; i < string.length; i++) {
+    if (string[i].length < 5) {
+      string.push(string[i])
+    }
+
+  }
+
+  return shortArray
+
+}
 
 
 

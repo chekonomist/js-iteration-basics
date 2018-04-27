@@ -13,22 +13,20 @@
  * You must use a for-loop to solve this problem.
  **/
 
+function arrayToString(word) {
+var concatenatedString = ""
 
-function arrayToString(arrayInput){
-  var concatenatedArr = []
-
-  for (var i = 0; i < arrayInput.length; i++) {
-    concatenatedArr.push(arrayInput[i])
+  for (var i = 0; i < word.length; i++) {
+    concatenatedString += word[i]
+    console.log(concatenatedString)
   }
 
-  return concatenatedArr
+  return concatenatedString
 }
 
 
 
 
-var example1 = arrayToString("Hello", "how", "are","you")
-console.log(example1)
 
 
 //*-*~*~*~*~*~ Don't Touch *~*~*~*~*~*~*~*~*~*~*~

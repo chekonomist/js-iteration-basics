@@ -20,14 +20,21 @@ function simpOrSamp(name){
 var fullName = []
 
 for (var i = 0; i < name.length; i++) {
-    if( name[i].length <= 6) {
-      fullName.push(name+" Sampson")
+
+    if( name[i].length >= 6) {
+      fullName.push(name[i]+" Simpson")
+      console.log(name[i]+ " Simpson")
     }
+
     else {
-      fullName.push(name+" Simpson")
+      fullName.push(name[i]+" Sampson")
+      console.log(name[i]+" Sampson")
   }
-    return fullName
 }
+    return fullName
+ }
+
+
 
 
 
